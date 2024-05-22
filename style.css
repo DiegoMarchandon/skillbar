@@ -1,0 +1,57 @@
+/* HTML */
+#HTMLbar{
+    width: 80%;
+    height: 40px;
+    background-color:orange;
+    border-radius: 5%;
+}
+
+#HTMLporc{
+    height: 100%;
+    width: 70%;
+    background-color: darkorange;
+    border-radius: 5%;
+}
+/* CSS */
+#CSSbar{
+    width: 80%;
+    height: 40px;
+    background-color: violet;
+    border-radius: 5%;
+}
+
+#CSSporc{
+    height: 100%;
+    width: 30%;
+    background-color: darkviolet;
+    border-radius: 5%;
+}
+/* JS */
+#JAVASCRIPTbar{
+    width: 80%;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 5%;
+}
+
+#JAVASCRIPTporc{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(133, 148, 0);
+    border-radius: 5%;
+}
+
+/* PHP */
+#PHPbar{
+    width: 80%;
+    height: 40px;
+    background-color: lightblue;
+    border-radius: 5%;
+}
+
+#PHPporc{
+    height: 100%;
+    width: 50%;
+    background-color: cornflowerblue;
+    border-radius: 5%;
+}
