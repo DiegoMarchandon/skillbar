@@ -7,42 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- modificar el fondo del body -->
+    <!-- agregarle mas estilos al titulo  -->
+    <h1 style="text-align: center;" id="title">SKILLBAR</h1>
 
-    <h1 style="text-align: center;">SKILLBAR</h1>
-
-    <div class="HTML">
+    <div class="skillbars">
+        <div class="parrafos">
+            <p>0%</p>
+            <p>20%</p>
+            <p>40%</p>
+            <p>60%</p>
+            <p>80%</p>
+            <p>100%</p>
+        </div>
+        <!-- agregar animaciones de zoom cuando se pasa el cursor sobre las barras -->
+        <!-- conseguir que el color gradiente haga referencia a la barra entera
+            en lugar de solamente a la barra de porcentaje -->
         <p>HTML</p>
-        <div id="HTMLbar">
+        <div class="bar HTML">
             <div id="HTMLporc">
 
             </div>
         </div>
-    </div>
-    <div class="CSS">
+    
         <p>CSS</p>
-        <div id="CSSbar">
+        <div class="bar CSS">
             <div id="CSSporc">
 
             </div>
         </div>
-    </div>
-    <div class="JAVASCRIPT">
+    
         <p>JAVASCRIPT</p>
-        <div id="JAVASCRIPTbar">
+        <div class="bar JS">
             <div id="JAVASCRIPTporc">
 
             </div>
         </div>
-    </div>
-    <div class="PHP">
+
         <p>PHP</p>
-        <div id="PHPbar">
+        <div class="bar PHP">
             <div id="PHPporc">
 
             </div>
         </div>
+        
     </div>
 
-
+<script type="module" src="main.js"></script>
 </body>
 </html>
