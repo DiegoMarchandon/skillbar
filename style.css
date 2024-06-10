@@ -43,8 +43,7 @@ p{
     height: 100%;
     width: 70%;
     background-image: linear-gradient(to right, rgb(253, 200, 103),rgb(255, 140, 0));
-    
-    
+    display: flex;
 }
 /* CSS */
 .CSS{
@@ -55,7 +54,7 @@ p{
     height: 100%;
     width: 30%;
     background-image: linear-gradient(to right, violet, darkviolet);
-    
+    display: flex;
 }
 /* JS */
 .JS{
@@ -66,6 +65,7 @@ p{
     height: 100%;
     width: 60%;
     background-image: linear-gradient(to right, rgb(255, 255, 119),rgb(183, 183, 20));
+    display: flex;
 }
 
 /* PHP */
@@ -77,4 +77,11 @@ p{
     height: 100%;
     width: 50%;
     background-image: linear-gradient(to right, lightblue, rgb(59, 59, 180));
+    display: flex;
+    
+}
+    
+.parrafoPorcentaje{
+    margin: auto;
+    text-align: end;
 }
